@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+h1,h2{
+    color: white;
+}
+ 
+.container-fluid{
+padding: 10% 27% 2%;
+}
+.l{
+    text-align: left;
+}
+.c1{
+    background-color: #4542ea;
+    padding: 2% 3%;
+    border-radius: 3%;
+    color: rgb(193, 187, 180);
+}
+.c2{
+    padding: 2% 3%;
+    border-radius: 3%;
+    
+}.btn{
+    border-radius: 1.8rem;
+    width: 270px;
+}
+.rounded-circle{
+    
+   width: 150px;
+   height: 150px;
+   margin:4% 28%;
+   padding-top: 10% ;
+   background-image: linear-gradient(#4542ea, rgb(68, 0, 204));
+   background-color: #2523b8;
+}
+.table-danger{
+    border-radius: 3%;
+margin-top: 5px;
+}
+ tr{
+border-radius: 3%;
+margin-top: 15px;
+ }
+.d{
+    text-align: left;
+}
+table{
+margin:30px 10px 30px 10px ;
+}
