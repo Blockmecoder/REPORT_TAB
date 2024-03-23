@@ -5,7 +5,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <nav className="bg-gray-800 p-4 md:p-4 lg:p-4 xl:p-4 flex justify-between items-center shadow-md" style={{ padding: '4% 7%' }}>
+    <nav className="bg-gradient-to-r from-green-400 to-blue-500 p-4 md:p-4 lg:p-4 xl:p-4 flex justify-between items-center shadow-md" style={{ padding: '4% 7%' }}>
       <h1 className="text-white text-2xl font-bold">Business Analysis</h1>
       <button
         className="hidden md:block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-4 py-2 rounded"

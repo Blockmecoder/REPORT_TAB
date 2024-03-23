@@ -4,6 +4,7 @@ import HCard from "../hoverCard/page";
 
 const Card = () => {
   const [isHovered, setIsHovered] = useState(false);
+  const [showArrow, setShowArrow] = useState(false);
 
   return (
     <div className="bg-gray-100 p-6 sm:flex-col flex">
@@ -14,7 +15,7 @@ const Card = () => {
         className="max-w-xl bg-white rounded-lg overflow-hidden shadow-lg"
       >
         <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2">Card Title</div>
+          <div className="font-bold text-gray-700 text-xl mb-2">Card Title</div>
           <p className="text-gray-700 text-base">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
