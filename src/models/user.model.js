@@ -10,7 +10,7 @@ const userSchema = new Schema(
         ref: "Video",
       },
     ],
-    userName: {
+    username: {
       type: String,
       required: true,
       unique: true,
@@ -31,13 +31,13 @@ const userSchema = new Schema(
       trim: true,
       index: true,
     },
-    avtar: {
+    avatar: {
       type: String, //cloudinary url
       required: true,
     },
     coverImage: {
       type: String,
-      required: true,
+      // required: false,
     },
     password: {
       type: String,
@@ -67,7 +67,7 @@ userSchema.methods.generateAccessToken = function () {
     {
       _id: this._id,
       email: this.email,
-      userName: this.userName,
+      username: this.username,
       fullName: this.fullName,
     },
     process.env.ACCESS_TOKEN_SECRET,
